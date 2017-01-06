@@ -1,0 +1,621 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title> मीडिया इंडिया न्यूज़ | Home :: </title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <script src="js/bars.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/froogaloop.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.chocolat.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.fitvid.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/move-top.js"></script>
+    <script src="js/shBrushCss.js"></script>
+    <script src="js/shBrushJScript.js"></script>
+    <script src="js/shBrushXml.js"></script>
+    <script src="js/shCore.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- //js -->
+    <!-- animation-effect -->
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <script>
+        new WOW().init();
+    </script>
+    <!-- //animation-effect -->
+    <!--FlexSlider-->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+    <!--End-slider-script-->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+      
+        //jQuery(document).ready(function () {
+        //    debugger
+        //    $(".fw-branding").hide();
+        //});
+       
+    </script>
+    <script>
+        
+        $(window).load(function () {
+            debugger
+            $(".fw-branding").css("display", "none");
+        //$("#fw-container").css("height", "402px");
+    });
+    </script>
+    <!-- start-smoth-scrolling -->
+
+    <!--RSS-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+            type="text/javascript"></script>
+
+    <style type="text/css">
+        @import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+        #feedControl {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            font-size: 12px;
+            /*color: #9CADD0;*/
+        }
+        /*iframe {
+        position:fixed;
+        left:0px; 
+        bottom:0px;
+        }*/ .gfg-list {
+            background: #fff;
+        }
+    </style>
+    <!--<script type="text/javascript">
+        function load() {
+            var feed = "http://feeds.bbci.co.uk/news/world/rss.xml";
+            new GFdynamicFeedControl(feed, "feedControl");
+
+        }
+        google.load("feeds", "1");
+        google.setOnLoadCallback(load);
+    </script>-->
+    <!--RSS-->
+</head>
+
+<body onload="myFunction()">
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <nav class="navbar navbar-light bg-faded menu menu--horatio">
+                <a class="navbar-brand" href="#">मीडिया इंडिया टीम </a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active menu__item ">
+                        <a class="nav-link" href="#">होम <span class="sr-only">(current)</span></a>
+                    </li>
+
+
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">बॉलीवुड</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">स्पोर्ट्स</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">क्राइम</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">बिज़नेस</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">विडियो</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">दुनिया</a>
+                    </li>
+                    <li class="nav-item menu__item">
+                        <a class="nav-link" href="#">तस्वीरें</a>
+                    </li>
+                    <li class="nav-item dropdown menu__item">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">States</a>
+                        <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+                            <a class="dropdown-item" href="#">Maharashtra</a>
+                            <a class="dropdown-item" href="#">Uttar Pradesh</a>
+                            <a class="dropdown-item" href="#">Bihar</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="navbar-form navbar-left menu__item" style="margin-top:15px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <a href="#" class="" style="">
+                    <h2 class="nav-link">LIVE TV </h2>
+                </a>
+            </nav>
+            <!-- NAV -->
+
+            <div class="container">
+                <div class="banner-main">
+
+
+                    <!-- NAV -->
+
+
+                    <div class="banner-main1">
+                        <div class="logo wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                            <h1><a href="index.html" style="color: black; text-shadow: 2px 1px #000;"><b style="color:red">मीडिया इंडिया</b> न्यूज़</a></h1><br>
+                            <a> जनता से सत्ता तक </a>
+                        </div>
+                        <div class="header-right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                            <div class="shy-menu">
+                                <a class="shy-menu-hamburger">
+                                    <span class="layer top"></span>
+                                    <span class="layer mid"></span>
+                                    <span class="layer btm"></span>
+                                </a>
+                                <div class="shy-menu-panel">
+                                    <nav class="menu menu--horatio">
+                                        <ul class="menu__list">
+                                            <li class="menu__item menu__item--current"><a href="index.html" class="menu__link"><i class="glyphicon glyphicon-home" aria-hidden="true"></i>होम </a></li>
+                                            <li class="menu__item"><a href="about.html" class="menu__link"><i class="glyphicon glyphicon-user"> </i>About MI</a></li>
+                                            <li class="menu__item"><a href="services.html" class="menu__link"><i class="glyphicon glyphicon-cog" aria-hidden="true"></i>लाइव टीवी </a></li>
+                                            <li class="menu__item"><a href="gallery.html" class="menu__link"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i>फोटो गैलरी </a></li>
+                                            <li class="menu__item"><a href="codes.html" class="menu__link"><i class="glyphicon glyphicon-list-alt"> </i>विशेष</a></li>
+                                            <li class="menu__item"><a href="contact.html" class="menu__link"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>संपर्क</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div id="11"><span>Welcome</span> <span id="UserName" style="text-transform: uppercase;">UserName</span></div>
+                            <div class="menu open">
+                                <a class="hamburger">
+                                    <span class="layer top"></span>
+                                    <span class="layer mid"></span>
+                                    <span class="layer btm"></span>
+                                </a>
+                            </div>
+                            <script>
+                                $(function () {
+
+                                    initDropDowns($("div.shy-menu"));
+
+                                });
+
+                                function initDropDowns(allMenus) {
+
+                                    allMenus.children(".shy-menu-hamburger").on("click", function () {
+
+                                        var thisTrigger = jQuery(this),
+                                            thisMenu = thisTrigger.parent(),
+                                            thisPanel = thisTrigger.next();
+
+                                        if (thisMenu.hasClass("is-open")) {
+
+                                            thisMenu.removeClass("is-open");
+
+                                        } else {
+
+                                            allMenus.removeClass("is-open");
+                                            thisMenu.addClass("is-open");
+                                            thisPanel.on("click", function (e) {
+                                                e.stopPropagation();
+                                            });
+                                        }
+
+                                        return false;
+                                    });
+                                }
+                            </script>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="flexslider-info">
+                        <section class="slider">
+                            <div class="flexslider" style="border:none">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="banner-info">
+                                            <h4> फ्री रहेगा जियो </h4>
+                                            <p>अब 31 मार्च तक फ्री रहेगा जियो, लेकिन न्यू ईयर ऑफर में की गई ये बड़ी कटौती |</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="banner-info">
+                                            <h4>500 के पुराने नोट</h4>
+                                            <p>पेट्रोल पंपों पर कल तक ही चलेंगे 500 के पुराने नोट, जानें कहां-कहां मिलेगी 15 तक छूट .</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="banner-info">
+                                            <h4>कांग्रेस का ट्विटर अकाउंट हैक</h4>
+                                            <p>राहुल गांधी के बाद कांग्रेस का ट्विटर अकाउंट हैक, कई अश्लील ट्वीट किए गए |</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <!-- wthree -->
+        <div class="wthree-grids">
+            <div class="container">
+                <div class="col-md-5 wthree-right wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                    <h4>Latest News </h4>
+                    <div class="wthree-right-grids">
+                        <div class="wthree-right-grid right-top">
+                            <div class="design-left"> <i class="glyphicon glyphicon-bullhorn"> </i></div>
+                            <div class="design-right">
+                                <h5>फोटो गैलरी और ताज़ा तस्वीरें</h5>
+                                <p>Mauris pellentesque augue a vulputate</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="wthree-right-grid right-middle-top">
+                            <div class="design-left easy"><i class="glyphicon glyphicon-globe"> </i> </div>
+                            <div class="design-right">
+                                <h5>ख़बरें अब तक</h5>
+                                <p>Mauris pellentesque augue a vulputate</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="wthree-right-grid right-middle">
+                            <div class="design-left developer"><i class="glyphicon glyphicon-wrench"> </i> </div>
+                            <div class="design-right">
+                                <h5>ताज़ा ख़बरें</h5>
+                                <p>Mauris pellentesque augue a vulputate</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-7 main" id="main">
+
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+
+                                <li data-thumb="images/Breaking-News.jpg" class="proimg">
+                                    <img src="images/Breaking-News.jpg" class="proimg" />
+                                </li>
+                                <li data-thumb="images/Video-May-26-2016.jpg" class="proimg">
+                                    <img src="images/Video-May-26-2016.jpg" class="proimg" />
+                                </li>
+                                <li data-thumb="images/Breaking-News.jpg" class="proimg">
+                                    <img src="images/Breaking-News.jpg" class="proimg" />
+                                </li>
+                                <li data-thumb="images/Video-May-26-2016-thumb.jpg" class="proimg">
+                                    <img src="images/Video-May-26-2016.jpg" class="proimg" />
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </section> <!--<div class="col-md-6 slid wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">-->
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!-- //wthree -->
+        <!-- newsletter -->
+        <div class="newsletter w3ls-3">
+            <div class="container-fluid">
+                <div class="col-md-12 w3agile_newsletter_left wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                   
+                    <!-- start feedwind code -->
+                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="?widget_parameter=%7B%22sources%22%3A%5B%7B%22source%22%3A%22http%3A%2F%2Ftimesofindia.indiatimes.com%2Frssfeeds%2F-2128936835.cms%22%2C%22type%22%3A%22RSS%22%7D%2C%7B%22source%22%3A%22http%3A%2F%2Frss.jagran.com%2Frss%2Fnews%2Fnational.xml%22%2C%22type%22%3A%22RSS%22%7D%5D%2C%22name%22%3A%22%22%2C%22width%22%3A0%2C%22height%22%3A%22400%22%2C%22height_by_article%22%3A0%2C%22target%22%3A%22_blank%22%2C%22font%22%3A%22Arial%2C%20Helvetica%2C%20sans-serif%22%2C%22title_font_size%22%3A%2216%22%2C%22item_title_font_size%22%3A%2216%22%2C%22item_description_font_size%22%3A%2212%22%2C%22border%22%3A%22on%22%2C%22css_url%22%3A%22%22%2C%22responsive%22%3A%22on%22%2C%22text_direction%22%3A%22left%22%2C%22text_alignment%22%3A%22left%22%2C%22corner%22%3A%22rounded%22%2C%22scroll%22%3A%22on%22%2C%22auto_scroll%22%3A%22on%22%2C%22auto_scroll_direction%22%3A%22up%22%2C%22auto_scroll_step_speed%22%3A%224%22%2C%22auto_scroll_mc_speed%22%3A%2220%22%2C%22sort%22%3A%22new%22%2C%22title%22%3A%22on%22%2C%22title_sentence%22%3A%22%E0%A4%AE%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%87%E0%A4%82%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE%20%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A5%9B%22%2C%22title_link%22%3A%22webonspot%22%2C%22title_bgcolor%22%3A%22%23fd6901%22%2C%22title_color%22%3A%22%23fff%22%2C%22title_bgimage%22%3A%22%22%2C%22item_bgcolor%22%3A%22%23ffffff%22%2C%22item_bgimage%22%3A%22%22%2C%22item_title_length%22%3A%2255%22%2C%22item_title_color%22%3A%22%23ff0000%22%2C%22item_border_bottom%22%3A%22on%22%2C%22item_description%22%3A%22both%22%2C%22item_link%22%3A%22off%22%2C%22item_description_length%22%3A%22100%22%2C%22item_description_color%22%3A%22%23505659%22%2C%22item_date%22%3A%22on%22%2C%22item_date_format%22%3A%22%25b%20%25e%2C%20%25Y%20%25k%3A%25M%22%2C%22item_date_timezone%22%3A%22%22%2C%22item_description_style%22%3A%22html%22%2C%22item_thumbnail%22%3A%22crop%22%2C%22item_thumbnail_selection%22%3A%22auto%22%2C%22article_num%22%3A%2215%22%2C%22item_player%22%3A%22youtube%22%2C%22keyword_inc%22%3A%22%22%2C%22keyword_exc%22%3A%22%22%7D"></script> <!-- end feedwind code -->
+                </div>
+                <!--<div class="col-md-3 w3agile_newsletter_right wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                    <form action="#" method="post">
+                        <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>-->
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!-- //newsletter -->
+        <div class="welcome wthree-3">
+            <div class="container">
+                <div class="welcome-head">
+                    <h2 class="tittle"> वीडियो </h2>
+
+                </div>
+                <h3 class=" col-sm-12">पॉलिटिक्स </h3>
+                <br />
+                <div class="welcome-grids">
+                    <div class=""></div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/123news.jpg" class="img-responsive proimg" alt="/">
+
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/123news.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>फोटो गैलरी और ताज़ा तस्वीरें</h4>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/123news.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>पॉलिटिक्स </h4>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/123news.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>पॉलिटिक्स </h4>
+
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <br />
+                <br />
+                <h3 class=" col-sm-12">स्पोर्ट्स </h3>
+
+                <div class="welcome-grids">
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/Virat-Kohli.jpg" class="img-responsive proimg" alt="/">
+
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/Virat-Kohli.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>Excepteur</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/Virat-Kohli.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>Excepteur</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/Virat-Kohli.jpg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>Excepteur</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <br />
+                <br />
+                <h3 class=" col-sm-12">कार्यक्रम </h3>
+
+                <div class="welcome-grids">
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/mgg.jpeg" class="img-responsive proimg" alt="/">
+
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        <img src="images/mg.jpeg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>वारदात</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/mgg.jpeg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>धर्म</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 welcome-grid test1 wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                        <img src="images/mg.jpeg" class="img-responsive proimg" alt="/">
+                        <div class="textbox">
+                            <h4>धर्म</h4>
+                            <p>Excepteur nonummy hendrerit mau phaselntes nascetur ridic ulusm dui fusce feu.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="footer agile">
+            <div class="container">
+                <ul class="social wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <li>
+                        <a class="social-facebook" href="#">
+                            <i></i>
+                            <div class="tooltip"><span>Facebook</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-twitter" href="#">
+                            <i></i>
+                            <div class="tooltip"><span>Twitter</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-google" href="#">
+                            <i></i>
+                            <div class="tooltip"><span>Google+</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-pinterest" href="#">
+                            <i></i>
+                            <div class="tooltip"><span>Pinterest</span></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-instagram" href="#">
+                            <i></i>
+                            <div class="tooltip"><span>Instagram</span></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a><i>|</i></li>
+                    <li><a href="about.html">About</a><i>|</i></li>
+                    <li><a href="gallery.html">Gallery</a><i>|</i></li>
+                    <li><a href="codes.html">Short Codes</a><i>|</i></li>
+                    <li><a href="services.html">Services</a><i>|</i></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="copy-right">
+                    <p class="wow fadeInUp animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">© 2016 Viscerous . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //here ends scrolling icon -->
+
+    <!--<script>
+        app = "www.cricwaves.com"; mo = "f1_zd"; tor = ""; mtype = ""; wi = "{{wi}}"; Position: "fixed"; left: "0px"; bottom: "0px"; Width = "302px"; Height = "252px"; co = "ind"; style = "margin:0;padding:0;position: fixed;left: 0px;bottom: 0px;"
+
+    </script>
+    <script type="text/javascript" src="http://www.cricwaves.com/cricket/widgets/script/scoreWidgets.js"></script>-->
+</body>
+</html>
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+    window.$zopim || (function (d, s) {
+        var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+        d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+            z.set.
+            _.push(o)
+        }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute("charset", "utf-8");
+        $.src = "https://v2.zopim.com/?1Nos412win42zi1ub4y6iNTb3c4stch0"; z.t = +new Date; $.
+        type = "text/javascript"; e.parentNode.insertBefore($, e)
+    })(document, "script");
+
+
+    //$(window).load(function () {
+    //    $('.flexslider').flexslider({
+    //        animation: "slide",
+    //        controlNav: "thumbnails",
+    //        delay:"100"
+    //    });
+    //});
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        event.preventDefault();
+    });
+    $(function () {
+        SyntaxHighlighter.all();
+    });
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: "thumbnails",
+            start: function (slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+
+
+<script>
+
+    $(".proimg").click(function () {
+        debugger
+        var img2src = $(this).attr('src');
+        debugger
+        document.location = "about.html?" + img2src;
+        //$('img[alt="img2"]').attr('src', img2src);
+    })
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        
+    });
+
+
+    window.onload = function () {
+        Geturlvalue();
+    }
+
+    function Geturlvalue(){
+        var querystring = [];
+        var currenrurl = document.location.toString();
+        querystring = currenrurl.split("?");
+        var UserNametext = querystring[1];
+        debugger;
+        $("#UserName").text(UserNametext);
+    };
+
+</script>
